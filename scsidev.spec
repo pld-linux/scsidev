@@ -11,6 +11,7 @@ Source0:	http://www.garloff.de/kurt/linux/scsidev/%{name}-%{version}.tar.gz
 Patch0:		%{name}-makefile.patch
 URL:		http://www.garloff.de/kurt/linux/scsidev/#scsidev
 BuildRequires:	autoconf
+Obsoletes:	scsiutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_bindir		/sbin
